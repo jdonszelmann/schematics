@@ -1,0 +1,18 @@
+[package]
+name = "minecraft"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ssh = "0.1.4"
+color-eyre = "0.6.2"
+clap = {version="4.2.4", features=["derive"]}
+itertools = "0.10.5"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+hematite-nbt = {version="0.5.2"}
+serde = {version="1.0.160", features=["derive"]}
+perpendicular = "0.1.9"
+
